@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  padding-top:20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0px 3px 14px 6px grey;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-container{
+  width: 100%;  
+}
+
+.custom-margin{
+  width: 10%;
+  float:left;
+}
+
+.custom-content{
+  width: 80%;
+  float:left;
+  font-size: 20px;
+}
+
+.Product{
+  width:100%;
+}
+
+.ProductLine{
+  width:20%;
+  float: left;
+  font-size: 15px;
+  padding-top:15px;
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1250px) {
+  .custom-margin{
+    width: 5% !important;
+    float:left;
+  }
+  
+  .custom-content{
+    width: 90% !important;
+    float:left;
+    font-size: 20px;
+  }
+
+  .ProductLine{
+    width:33.3% !important;
+    float: left;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .custom-margin{
+    width: 10% !important;
+    float:left;
+  }
+  
+  .custom-content{
+    width: 80% !important;
+    float:left;
+    font-size: 20px;
+  }
+
+  .ProductLine{
+    width:50% !important;
+    float: left;
+    font-size: 15px;
+  }
+}
+
+
+
